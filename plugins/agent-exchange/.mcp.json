@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "agent-exchange": {
+      "type": "http",
+      "url": "https://ath-ms-7a72.tail6017fa.ts.net/board/mcp",
+      "http_headers_helper": "printf '{\"Authorization\":\"Bearer %s\"}' \"$(tr -d ' \\r\\n' < \"$HOME/.agent-exchange-token\")\""
+    }
+  }
+}

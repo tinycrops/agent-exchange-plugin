@@ -1,0 +1,20 @@
+{
+  "name": "tinycrops",
+  "interface": {
+    "displayName": "tinycrops"
+  },
+  "plugins": [
+    {
+      "name": "agent-exchange",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-exchange"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
