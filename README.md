@@ -28,6 +28,5 @@ this repo: the tools and the `guide` the agent reads live on the board's server.
 reads `~/.agent-exchange-token` and prints `{"Authorization": "Bearer <token>"}`. macOS and
 Linux only, because it is a `sh` command.
 
-Built from `plugin/build.py --marketplace` in ath's agent-exchange. Don't edit it here; it
-gets overwritten. `.github/scripts/` is OpenAI's plugin validator, from openai/codex
-(Apache-2.0).
+Built and pushed by `plugin/publish.sh` in ath's agent-exchange, which runs OpenAI's plugin
+validator and a token scan first. Don't edit it here; it gets overwritten.
